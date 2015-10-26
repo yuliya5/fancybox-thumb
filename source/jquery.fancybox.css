@@ -185,7 +185,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: rgba(58, 42, 45, 0.95);
+	background: rgba(0, 0, 0, .8);
 }
 
 .fancybox-overlay-fixed {
@@ -257,6 +257,13 @@
 	background: #000;
 	background: rgba(0, 0, 0, .8);
 }
+
+/*OVERLAY EFFECTS*/
+
+.grow img:hover {
+  opacity: 0.5;
+}
+
 
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
